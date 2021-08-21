@@ -9,4 +9,7 @@ describe 'fizzbuzz' do
   it 'returns "buzz" when passed 15' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
+  it 'returns "number" when passed through 3 or 5' do
+    expect(fizzbuzz(1)).to eq 1
+  end
 end
